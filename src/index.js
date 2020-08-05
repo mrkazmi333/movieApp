@@ -18,9 +18,9 @@ console.log('Store', store);
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App store={store} />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <App store={store} />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
