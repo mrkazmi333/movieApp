@@ -12,7 +12,8 @@
 
 ## About
 
-A movie search engine website made using the help of OMDB API. Thanks to creators of API :3
+A movie search engine website made using the help of OMDB API. Thanks to creators of API. ❤
+API can be accessed from here: http://www.omdbapi.com/
 
 ## Preview
 
