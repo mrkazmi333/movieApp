@@ -3,7 +3,8 @@ import { data } from "../data";
 import Navbar from "./Navbar";
 import MovieCard from "./MovieCard";
 import { addMovies, setShowFavourites } from "../actions";
-import { connect } from "../index";
+// import { connect } from "../index";
+import { connect } from "react-redux";
 
 class App extends React.Component {
   componentDidMount() {
@@ -85,11 +86,11 @@ class App extends React.Component {
 //   }
 // }
 
-function callback(state) {
+function mapStateToProps(state) {
   return {
     movies: state.movies,
     search: state.movies,
   };
 }
-const connectedAppComponent = connect(callback)(App);
+const connectedAppComponent = connect(mapStateToProps)(App);
 export default connectedAppComponent;
